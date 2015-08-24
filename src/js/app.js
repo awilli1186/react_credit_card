@@ -22,6 +22,30 @@ class Card extends React.Component {
       type = 'discover';
     }
 
+    if (value.match(/^5[1-5][0-9]{14}$/)) {
+      type = 'mastercard';
+    }
+
+    if (value.match(/^(5018|5020|5038|6304|6759|6761|6763)[0-9]{8,15}$/)) {
+      type = 'maestro';
+    }
+
+    if (value.match(/^(?:2131|1800|35\d{3})\d{11}$/)) {
+      type = 'jcb';
+    }
+
+    if (value.match(/^(62[0-9]{14,17})$/)) {
+      type = 'unionpay';
+    }
+
+    if (value.match(/^3[47][0-9]{13}$/)) {
+      type = 'americanexpress';
+    }
+
+    if (value.match(/^3(?:0[0-5]|[68][0-9])[0-9]{11}$/)) {
+      type = 'dinersclub';
+    }
+
     if (type) {
       this.setState({
         type: type,
@@ -126,6 +150,96 @@ class DiscoverCardType extends GenericCardType {
   render() {
     return (
       <div className="discover">
+        <input ref="cc" onChange={this.props.onChangeCC} value={this.props.ccValue} placeholder="Credit Card Number" />
+
+        <input ref="exp" onChange={this.props.onChangeExp} value={this.props.expValue}/>
+
+        <input ref="name" onChange={this.props.onChangeName} value={this.props.nameValue}/>
+      </div>
+    )
+  }
+}
+
+class DiscoverCardType extends GenericCardType {
+
+  render() {
+    return (
+      <div className="mastercard">
+        <input ref="cc" onChange={this.props.onChangeCC} value={this.props.ccValue} placeholder="Credit Card Number" />
+
+        <input ref="exp" onChange={this.props.onChangeExp} value={this.props.expValue}/>
+
+        <input ref="name" onChange={this.props.onChangeName} value={this.props.nameValue}/>
+      </div>
+    )
+  }
+}
+
+class DiscoverCardType extends GenericCardType {
+
+  render() {
+    return (
+      <div className="maestro">
+        <input ref="cc" onChange={this.props.onChangeCC} value={this.props.ccValue} placeholder="Credit Card Number" />
+
+        <input ref="exp" onChange={this.props.onChangeExp} value={this.props.expValue}/>
+
+        <input ref="name" onChange={this.props.onChangeName} value={this.props.nameValue}/>
+      </div>
+    )
+  }
+}
+
+class DiscoverCardType extends GenericCardType {
+
+  render() {
+    return (
+      <div className="jcb">
+        <input ref="cc" onChange={this.props.onChangeCC} value={this.props.ccValue} placeholder="Credit Card Number" />
+
+        <input ref="exp" onChange={this.props.onChangeExp} value={this.props.expValue}/>
+
+        <input ref="name" onChange={this.props.onChangeName} value={this.props.nameValue}/>
+      </div>
+    )
+  }
+}
+
+class DiscoverCardType extends GenericCardType {
+
+  render() {
+    return (
+      <div className="unionpay">
+        <input ref="cc" onChange={this.props.onChangeCC} value={this.props.ccValue} placeholder="Credit Card Number" />
+
+        <input ref="exp" onChange={this.props.onChangeExp} value={this.props.expValue}/>
+
+        <input ref="name" onChange={this.props.onChangeName} value={this.props.nameValue}/>
+      </div>
+    )
+  }
+}
+
+class DiscoverCardType extends GenericCardType {
+
+  render() {
+    return (
+      <div className="americanexpress">
+        <input ref="cc" onChange={this.props.onChangeCC} value={this.props.ccValue} placeholder="Credit Card Number" />
+
+        <input ref="exp" onChange={this.props.onChangeExp} value={this.props.expValue}/>
+
+        <input ref="name" onChange={this.props.onChangeName} value={this.props.nameValue}/>
+      </div>
+    )
+  }
+}
+
+class DiscoverCardType extends GenericCardType {
+
+  render() {
+    return (
+      <div className="dinersclub">
         <input ref="cc" onChange={this.props.onChangeCC} value={this.props.ccValue} placeholder="Credit Card Number" />
 
         <input ref="exp" onChange={this.props.onChangeExp} value={this.props.expValue}/>
