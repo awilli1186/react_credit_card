@@ -1,3 +1,103 @@
 body {
-  background: #eee;
+  background: #ffffff;
 }
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  color: #1F1FAF;
+  font-size: 40px;
+}
+.card {
+  background-color: #eee;
+  position: relative;
+  margin: 0 auto;
+  top: 3em;
+  width: 25.1em;
+  border-radius: 15px;
+  img {
+    background-color: #eee;
+    width: 25em;
+    border: 1px solid #eee;
+    border-radius: 15px;
+  }
+  .ccnum {
+    position: absolute;
+    top:7em;
+    left: 2em;
+    font-size: 18px;
+    border: 1px solid #eee;
+    width:12em;
+  }
+  .exp {
+    position: absolute;
+    left: 16em;
+    top: 16.5em;
+    width: 5em;
+  }
+
+  .name {
+    position: absolute;
+    top: 19em;
+    left: 2em;
+  }
+}
+
+.discover {
+  .exp {
+    position: absolute;
+    left: 19em;
+    top: 16.5em;
+    width: 5.5em;
+  }
+}
+
+.mastercard {
+  .exp {
+    position: absolute;
+    left: 17em;
+    top: 16.5em;
+    width: 5.5em;
+  }
+}
+.maestro {
+  .exp {
+    position: absolute;
+    left: 17em;
+    top: 16.5em;
+    width: 5.5em;
+  }
+}
+
+.jcb {
+  .exp {
+    position: absolute;
+    left: 16em;
+    top: 17em;
+    width: 5em;
+}
+  .name {
+    position: absolute;
+    top: 20em;
+    left: 2em;
+    }
+  }
+
+  .amex {
+    .exp {
+    position: absolute;
+    left: 7.5em;
+    top: 15.5em;
+    width: 5em;
+    }
+  }
+
+  .dinersclub {
+    .exp {
+    position: absolute;
+    left: 26em;
+    top: 20em;
+    width: 5em;
+    }
+  }
