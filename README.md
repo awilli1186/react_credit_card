@@ -1,6 +1,19 @@
 # Assignment 12.1 for the Iron Yard
 
-  Create a credit card input component that uses React.js to render the view based on the type of the credit card using the 1st few credit card numbers.
+- Create a credit card input component that uses React.js to render the view based on the type of     the credit card using the 1st few credit card numbers.
+
+## Give it a try: Give it a try.
+
+To begin, simply enter a valid card number (don't worry, it's not sent outside your browser). If that's too fishy for you (and I don't blame you), you can also try these valid credit card numbers to get the feel of it:
+
+Visa: 4111111111111111
+Discover: 6011111111111117
+MasterCard: 5111111111111118
+Maestro: 5018111111111112
+JCB: 3511111111111119
+Union Pay: 6211111111111111
+American Express: 371111111111114
+Diners Club: 38111111111119
 
 - `npm install`
   - This will install the node dependencies for you, and will also install any bower components.
