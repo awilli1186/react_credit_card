@@ -1,14 +1,6 @@
-# Iron Yard Front End Boilerplate
+# Assignment 21.1 for the Iron Yard
 
-
-## Installation
-
-- `cd ~/dev`
-- `git clone git@github.com:theironyard-frontend-nashville/frontend-boilerplate.git <projectname>` replacing <projectname> with your own project name.
-- `cd <projectname>`
-- `rm -rf .git`
-- `git init`
--  Create a new repo on Github.com and [add the remote](https://help.github.com/articles/adding-a-remote/).
+  Create a credit card input component that uses React.js to render the view based on the type of the credit card using the 1st few credit card numbers.
 
 - `npm install`
   - This will install the node dependencies for you, and will also install any bower components.
