@@ -15,6 +15,8 @@ To begin, simply enter a valid card number (don't worry, it's not sent outside y
 - American Express: 371111111111114
 - Diners Club: 38111111111119
 
+## Install packages
+
 - `npm install`
   - This will install the node dependencies for you, and will also install any bower components.
   - This will also run the gulp build process to create the dist folder.
