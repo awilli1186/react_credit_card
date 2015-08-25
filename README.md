@@ -1,4 +1,4 @@
-# Assignment 21.1 for the Iron Yard
+# Assignment 12.1 for the Iron Yard
 
   Create a credit card input component that uses React.js to render the view based on the type of the credit card using the 1st few credit card numbers.
 
