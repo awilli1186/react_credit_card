@@ -4,7 +4,9 @@
 
 ## Give it a try: Give it a try.
 
-To begin, simply enter a valid card number (don't worry, it's not sent outside your browser). If that's too fishy for you (and I don't blame you), you can also try these valid credit card numbers to get the feel of it:
+- http://awilli1186.github.io/react_credit_card/
+
+To begin, simply enter a valid card number (don't worry, it's not sent outside your browser). If that isn't for you (and I don't blame you), you can also try these valid credit card numbers to get the feel of it:
 
 - Visa: 4111111111111111
 - Discover: 6011111111111117
