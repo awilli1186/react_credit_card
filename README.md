@@ -2,7 +2,7 @@
 
 - Create a credit card input component that uses React.js to render the view based on the type of     the credit card using the 1st few credit card numbers.
 
-## Give it a try: Give it a try.
+## Give it a try.
 
 - http://awilli1186.github.io/react_credit_card/
 
